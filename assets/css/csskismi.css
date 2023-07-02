@@ -1,0 +1,396 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+} 
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+#root, #__next {
+  isolation: isolate;
+}
+
+
+.body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.container{
+    width:100%;
+}
+
+
+li {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.header {
+    width: 1110px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    cursor: pointer;
+}
+
+.Headers {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+.Headers a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.HeaderUserIcons {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.üstbaslik{
+    width: 1110px;
+    height: 170px;
+    background-color: white;
+    position: relative;
+    top: 120px;
+    left:115px;
+}
+
+.üstbaslik h3{
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+text-align: left;
+}
+.üstbaslik p {
+display: flex;
+margin: 28px 0;
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #52647C;
+}
+.üstbaslik p b{
+    margin:0 5px;
+    width: 28px;
+    height: 28px;
+}
+
+.üstbaslik a{
+    width: 48px;
+    height: 48px;
+ display: inline-flex;
+ position: relative;
+ left:910px;
+ bottom:75px;
+}
+
+.leptop{
+    width: 1110px;
+height: 1008px
+}
+
+.leptop a{
+    width: 1110px;
+height: 624px;
+position: relative;
+top: 160px;
+left: 115px;
+}
+
+.leptop p{
+    width: 1112px;
+    height: 336px;
+    position: relative;
+    top: 180px;
+    left: 115px;
+    text-align: left;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.kilit{
+   width:1110px;
+   height: 388px;
+   top: 1389px;
+   background-color: white;
+   position: relative;
+   top: 170px;
+   left: 110px;
+}
+
+.kilitimg{
+    width: 5000px;
+    height: 387px;
+    border-radius: 6px;
+}
+
+.kilit h6{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    position: relative;
+    left:550px;
+    top: -380px;
+}
+
+.kilit p{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    position: relative;
+    left: 550px;
+    bottom:370px;
+}
+
+.sozkutusu{
+    width: 1110px;
+height: 347px;
+top: 1936px;
+left: 165px;
+background-color: #ECF1F8;
+;
+position: relative;
+top: 250px;
+   left: 110px;
+   text-align: center;
+}
+
+.sozkutusu h4{
+font-family: Montserrat;
+font-size: 30px;
+font-weight: 700;
+line-height: 37px;
+padding: 105px;
+}
+
+.sozkutusu h6{
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+position: relative;
+bottom:90px;
+}
+
+.saat{
+    width: 1110px;
+    height: 380px;
+    top: 2283px;
+    background-color: white;
+    position: relative;
+    left:110px;
+    top:320px;
+}
+
+.saat h6{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    }
+
+    
+.saat p{
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+    }
+
+    .saatresmi{
+        position: relative;
+        bottom: 373px;
+        left: 570px;
+        width: 540px;
+        height: 387px;
+    }
+
+    .video{
+        background-color: white;
+        width: 1110px;
+        height: 700px;
+        position: relative;
+        left:110px;
+        top:470px;
+    }
+
+    .video h4{
+       font-family: Montserrat;
+       font-size: 30px;
+       font-weight: 700;
+       line-height: 37px;
+       text-align: left;
+    }
+    
+ .video a {
+    position: relative;
+    top: 40px;
+}
+
+    .kategori{
+        width: 1110px;
+        height: 420px;
+        top: 3619px;
+        position: relative;
+        left:110px;
+        top:700px;
+      display: flex;
+    }
+
+    .kategori p {
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: left;
+        color: #1E1E1E;
+        position: absolute;
+        top:-100px;
+    }
+    .kategori a{
+        width: 400px;
+        height: 280px;
+        position: relative;
+        left:25px;
+        top:-95px;
+        text-decoration: none;
+    }
+
+    .kategori a h6{
+         position: relative;
+         top: 380px;
+         font-family: Montserrat;
+         font-size: 20px;
+         line-height: 30px;
+         text-align: left;
+        color: #1E1E1E;
+    }
+
+    .kategori a p{
+        position: relative;
+        top:365px;
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+    }
+
+    .sonkisim {
+     width: 1105px;
+     height: 369px;
+     top: 4260px;
+     font-family: Open Sans;
+     font-size: 13px;
+     font-weight: 400;
+     line-height: 30px;
+     text-align: left;
+     background-color: white;
+     display:flex;
+     position: relative;
+     left:105px;
+     top:850px;
+    }
+
+    .bir{
+            position:relative;
+            left:70px;
+            top:72px;
+            cursor: pointer;
+    }
+    .iki{
+        position: relative;
+        top:72px;
+        left:100px;
+        cursor: pointer;
+    }
+    .üc{
+        position: relative;
+        top:72px;
+        left:130px;
+        cursor: pointer;
+    }
+
+    .dört{
+        position: relative;
+        top:72px;
+        left:160px;
+        cursor: pointer;
+    }
+
+    .sonkisim h6{
+        position: relative;
+        top:72px;
+        left:652px;
+        font-family: Open Sans;
+         font-size: 12px;
+    }
+
+    .sonkisim e{
+        position: relative;
+        top:100px;
+        left:300px;
+        font-family: Open Sans;
+         font-size: 12px;
+    }
+    
+    .sonkisim d{
+      position:relative;
+      left:-720px;
+      top:310px;
+    }
+
+    .sonkisim c{
+     position: relative;
+     left:-10px;
+     top:310px;
+    }
+
+    .fabrx{
+        position: relative;
+        top:310px;
+        left:-350px;
+    }
+
+
+
+   
+   
+    
